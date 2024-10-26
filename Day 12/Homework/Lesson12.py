@@ -18,11 +18,11 @@ while num < 50:     # 1-დან 50-მდე
 
 for num in range(1, 100):                     # შექმენით რიცხვების დიაპაზონი 1-დან 100-მდე,
     if (num % 3) == 0 and (num % 5) == 0:     # თუ იყოფა 3-ზეც და 5-ზეც დაბეჭდეთ "FizzBuzz" 
-        print("FizzBuzz")                     
+        print("FizzBuzz " + str(num))                     
     elif (num % 3) == 0:                      # თუ რიცხვი იყოფა 3-ზე დაბეჭდეთ "Fizz"
-        print("Fizz")
+        print("Fizz " + str(num))
     elif (num % 5) == 0:                      # თუ რიცხვი იყოფა 5-ზე დაბეჭდეთ "Buzz"
-        print("Buzz")
+        print("Buzz " + str(num))
 
 
 
