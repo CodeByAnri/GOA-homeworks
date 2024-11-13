@@ -11,3 +11,12 @@ number1 = int(input("Enter First Number Here: " ))
 number2 = int(input("Enter Second Number Here: "))
 
 add(number1, number2)
+
+
+
+# 3) შექმენით ფუნქცია, რომელსაც არგუმენტად გადაეცემა ორი რიცხვი, 
+# ხოლო ამ ფუნქციამ უნდა დააბრუნოს პირველი რიცხვი აყვანილი მე-2 რიცხვის ხარისხში
+
+def Number_PoweredBy(Number, Power):
+    result = Number ** Power
+    return result

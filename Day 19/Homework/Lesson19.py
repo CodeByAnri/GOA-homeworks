@@ -69,3 +69,14 @@ for i in Binary_List:
     else:
         Boolean_List.append(False)
 print(Boolean_List)
+
+
+
+
+
+
+
+def solution(string):
+    string = string[-1:-len(string)]
+    print(string)
+solution("anri")
